@@ -258,7 +258,7 @@ for loop_counter in range(1,6):
 	                            	S=TRAINING_MATRICES[cat][3]
 	                                col_index=List_Users.index(trustee_id)
 	                                S[row_index][col_index]=float(Category_Circle[cat][trustee_id])/float(Same_Category_WT)
-	                                TRAINING_MATRICES[Category][3] = S
+	                                TRAINING_MATRICES[cat][3] = S
 	                                
 	# print "************* S matrix Created *******************"
 
